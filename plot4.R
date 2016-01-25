@@ -1,5 +1,3 @@
-HPC_data2$Voltage <- as.numeric(HPC_data2$Voltage)
-HPC_data2$Global_reactive_power <- as.numeric(HPC_data2$Global_reactive_power)
 par(mfcol=c(2,2), mar = c(4,4,2,2))
 plot(plot2$DateTime, plot2$Global_active_power, type ="l", ylab = "Global Active Power 
      (kilowatts)", xlab = "")

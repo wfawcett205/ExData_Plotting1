@@ -5,7 +5,7 @@
 dates<- HPC_data2$Date
 time <- HPC_data2$Time
 DateTime <- paste(dates, time)
-DateTime <- strptime(datetime, "%d/%m/%Y %H:%M:%S")
+DateTime <- strptime(DateTime, "%d/%m/%Y %H:%M:%S")
 
 ## Create a new data.table/data.frame by combining DateTime and HPC_data2
 ## Subset the new data.table to include only DateTime and Global_active_power.
